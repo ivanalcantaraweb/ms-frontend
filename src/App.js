@@ -1,14 +1,17 @@
 import './App.css';
+import Layout from './Pages/layout';
+import Navbar from './Components/Navbar/Navbar/Navbar';
+
+
+//Import react router
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>
-         My space 2022
-       </h1>
-      </header>
-    </div>
+   <Layout>
+     <Navbar></Navbar>
+
+     {/* React router */}
+   </Layout>
   );
 }
 
